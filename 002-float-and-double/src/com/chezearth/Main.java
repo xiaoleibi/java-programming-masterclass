@@ -18,12 +18,14 @@ public class Main {
         System.out.println("myFloatValue = " + myFloatValue);
     
         System.out.println("myDoubleValue = " + myDoubleValue);
+        
+              /// exercise converter pound to kg /// 
 
 
-        double lbValue = 200d;
+        double lbValue = 200d; //prefer to use double to avoid loss of precision and it is faster than float
         double kgValue = lbValue * 0.453_592_37d;
         System.out.println(lbValue + " lb converts to " + kgValue + " kg");
-        double myKgWeight = 99.6d; //double is the default type for variables
+        double myKgWeight = 99.6d; //double is the default type for floating point numbers
         double myLbWeight = myKgWeight / 0.453_592_37d;
         System.out.println("My body weight in lbs is " + myLbWeight);
 
