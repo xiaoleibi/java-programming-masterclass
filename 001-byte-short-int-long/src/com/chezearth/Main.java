@@ -17,7 +17,7 @@ public class Main {
         byte myMinByteValue = Byte.MIN_VALUE; // -128;
         byte myMaxByteValue = Byte.MAX_VALUE; // 127;
 
-        byte myByteValue = (byte) (myMinByteValue / 2);
+        byte myByteValue =  (byte)(myMinByteValue / 2); //casting to byte
         System.out.println("myMinByteValue = " + myMinByteValue);
         System.out.println("myByteValue = " + myByteValue);
         System.out.println("myMaxByteValue = " + myMaxByteValue);
@@ -26,7 +26,7 @@ public class Main {
         short myMinShortValue = Short.MIN_VALUE; // -32_768;
         short myMaxShortValue = Short.MAX_VALUE; //32_767;
 
-        short myShortValue = (short) (myMinShortValue /2);
+        short myShortValue = (short) (myMinShortValue /2);//interpreted as int and casted to short
         System.out.println("myMinShortValue = " + myMinShortValue);
         System.out.println("myShortValue = " + myShortValue);
         System.out.println("myMaxShortValue = " + myMaxShortValue);
