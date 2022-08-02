@@ -1,5 +1,5 @@
 public class Hello {
-
+//the name of the class is the same as file name
     public static void main(String[] args) {
 
         System.out.println("Hello, Charles!");
