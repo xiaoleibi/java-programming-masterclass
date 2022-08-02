@@ -4,15 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        float myFloat = (float) 5.25;
+        float myFloatValue = Float.MAX_VALUE; // 3.4028235E38f;
+        System.out.println("myFloatValue = " + myFloatValue);
         // width of int is 32 (4 bytes)
         int myIntValue = 5 / 2;
         // width of float is 32 (4 bytes)
-        float myFloatValue = 5f / 3f;
+        myFloatValue = (float)5 / 3;//myFloatValue = 5f / 3f;
         // width of double is 64 (8 bytes)
         double myDoubleValue = 5d / 3d;
 
         System.out.println("myIntValue = " + myIntValue);
+        
         System.out.println("myFloatValue = " + myFloatValue);
         System.out.println("myDoubleValue = " + myDoubleValue);
 
