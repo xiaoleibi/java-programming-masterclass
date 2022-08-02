@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        char myChar = '\u00A9';
+        char myChar = '\u00A9'; //unicode-table.com character
         System.out.println("Unicode copyright symbol is: " + myChar);
 
         boolean myBool = true;
