@@ -9,7 +9,7 @@ public class Main {
         int myMaxIntValue = Integer.MAX_VALUE; // 2_147_483_647;
 
         int myIntValue = (myMinIntValue / 2);
-        System.out.println("myMinIntValue = " + myMinIntValue);
+        System.out.println("myMinIntValue = " + (myMinIntValue-1));//overflow or underflow
         System.out.println("myIntValue = " + myIntValue);
         System.out.println("myMaxIntValue = " + myMaxIntValue);
 
