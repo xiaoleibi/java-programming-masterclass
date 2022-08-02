@@ -36,12 +36,19 @@ public class Main {
         result -= 9;
         System.out.println("result -= 9 = " + result);
 
+        //if then statement
+
         boolean isAlien = false;
-        if (!isAlien) {
+        if (!isAlien) { // ! is the opposite of true =  
+
+            // if (isAlien==true) {
             System.out.println("It is not an alien!");
+            //use code block by {add the brackets}
         }
 
         int topScore = 100;
+
+
         if (topScore <= 100) {
             System.out.println("Highest Score!");
         }
@@ -56,13 +63,13 @@ public class Main {
             System.out.println("This is not supposed to happen");
         }
 
-        boolean wasCar = isCar ? true : false;
+        boolean wasCar = isCar ? true : false; //ternary operator
         System.out.println("wasCar is " + wasCar);
 
         double myFirstVar = 20.00d;
         double mySecondVar = 80.00d;
 
-        boolean answer = ((myFirstVar + mySecondVar) * 100.00d % 40.00d == 0) ? true : false;
+        boolean answer = ((myFirstVar + mySecondVar) * 100.00d % 40.00d == 0) ? true : false; //operator precedence
         System.out.println(("Challenge answer is " + answer));
         if (!answer) {
             System.out.println("Got some remainder");
