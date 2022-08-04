@@ -36,5 +36,6 @@ public class Main {
         }
 
         return 4;
+        // return "No high score";
     }
 }
